@@ -1,0 +1,76 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+logs/
+*.log
+
+# Compiled source files
+*.class
+*.jar
+*.war
+*.ear
+
+# OS-specific files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Runtime files
+*.pid
+*.seed
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.old
+
+# Build directories
+/out/
+build/
+target/
+
+# IDE files
+*.idea/
+*.vscode/
+
+# Maven and Gradle directories
+.mvn/
+.gradle/
+.gradle-cache/
+calendar/.mvn/
+
+# JetBrains settings
+# Exclude JetBrains IDE settings that are not meant to be shared
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+
+# JetBrains IDE run/debug configurations
+.idea/runConfigurations/
+
+# Code styles and inspections
+.idea/codeStyles/
+
+# Local history
+.idea/libraries/
+.idea/shelf/
+
+# User-specific files
+*.env
+.env.*

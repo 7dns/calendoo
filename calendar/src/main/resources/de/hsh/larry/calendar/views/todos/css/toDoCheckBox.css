@@ -1,0 +1,40 @@
+.checkbox {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-radius: 15;
+
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20;
+}
+
+.checkbox:hover{
+    -fx-background-color: #F2F2F2;
+}
+
+.checkbox_not-started {
+    -fx-background-image: url('../icons/checkbox_not_started.png');
+}
+
+.checkbox_in-progress {
+    -fx-background-image: url('../icons/checkbox_in_progress.png');
+}
+
+.checkbox_done {
+    -fx-background-image: url('../icons/checkbox_done.png');
+}
+
+.todo_not-done {
+    -fx-opacity: 1;
+}
+
+.todo_not-done .text {
+    -fx-strikethrough: false;
+}
+
+.todo_done {
+    -fx-opacity: 0.5;
+}
+
+.todo_done .text {
+    -fx-strikethrough: true;
+}

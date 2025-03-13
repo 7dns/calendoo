@@ -1,0 +1,33 @@
+.button {
+    -fx-background-color: #E6E6E6;
+    -fx-background-radius: 35;
+    -fx-background-size: 35;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+.button:hover {
+    -fx-background-color: #F2F2F2;
+}
+
+.button-home {
+    -fx-background-image: url('../../../icons/home.png');
+
+}
+.button-calendar {
+    -fx-background-image: url('../../../icons/calendar.png');
+
+
+}
+.button-habit {
+    -fx-background-image: url('../../../icons/clipboard.png');
+
+
+}
+.button-todo {
+    -fx-background-image: url('../../../icons/ok-circle.png');
+
+}
+
+.navigation {
+    -fx-backround-color: #E6E6E6;
+}

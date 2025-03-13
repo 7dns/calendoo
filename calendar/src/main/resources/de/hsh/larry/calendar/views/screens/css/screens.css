@@ -1,0 +1,44 @@
+.addEntry {
+    -fx-background-image: url('../icons/addEntry.png');
+    -fx-background-size: 35;
+}
+.addCalendar {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-radius: 25;
+
+    -fx-background-image: url('../icons/addCalendar.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20;
+}
+
+.addCalendar:hover {
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+
+.check-box {
+    box-color: #ffffff;
+    mark-color: #1a1a1a;
+}
+
+.check-box > .box {
+    -fx-background-color: box-color;
+
+    -fx-background-insets: 1.5px;
+    -fx-background-radius: 3;
+
+    -fx-border-color: #1a1a1a;
+    -fx-border-width: 1.5px;
+    -fx-border-insets: 0px;
+    -fx-border-radius: 5;
+}
+
+.check-box:selected > .box > .mark,
+.check-box:indeterminate  > .box > .mark {
+    -fx-background-color: mark-color;
+}
+
+*:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}

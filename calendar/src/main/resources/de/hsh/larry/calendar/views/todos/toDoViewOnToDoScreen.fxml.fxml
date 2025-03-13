@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" maxWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hsh.larry.calendar.views.todos.ToDoViewOnToDoScreen">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints hgrow="ALWAYS" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Region fx:id="highlight" styleClass="background" stylesheets="@css/toDoView.css" GridPane.columnIndex="1" GridPane.rowSpan="2">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Region>
+      <Region fx:id="checkbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="30.0" stylesheets="@css/toDoCheckBox.css">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <styleClass>
+            <String fx:value="checkbox" />
+            <String fx:value="checkbox_not-started" />
+         </styleClass></Region>
+      <Label fx:id="title" mouseTransparent="true" text="Title" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="15.0" right="15.0" />
+         </GridPane.margin>
+      </Label>
+      <HBox fx:id="details" alignment="CENTER_LEFT" mouseTransparent="true" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <HBox fx:id="detailsTime" alignment="CENTER_LEFT" spacing="10.0">
+               <children>
+                  <Region maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="20.0" prefWidth="20.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <styleClass>
+                        <String fx:value="time" />
+                        <String fx:value="icon" />
+                     </styleClass>
+                  </Region>
+                  <Label fx:id="time" text="Time">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label text="·">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <Circle fx:id="calendarColor" fill="DODGERBLUE" radius="7.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+               <HBox.margin>
+                  <Insets bottom="2.5" top="2.5" />
+               </HBox.margin>
+            </Circle>
+            <Label fx:id="calendar" layoutX="10.0" layoutY="10.0" text="Calendar">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <GridPane.margin>
+            <Insets left="15.0" right="15.0" />
+         </GridPane.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <stylesheets>
+      <URL value="@css/toDoView.css" />
+      <URL value="@css/toDoCheckBox.css" />
+   </stylesheets>
+</GridPane>

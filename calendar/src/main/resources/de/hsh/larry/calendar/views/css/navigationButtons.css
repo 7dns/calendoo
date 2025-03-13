@@ -1,0 +1,16 @@
+.button {
+    -fx-background-size: 15;
+}
+
+.next {
+    -fx-background-image: url('../../icons/arrow-right.png');
+}
+
+.past {
+    -fx-background-image: url('../../icons/arrow-left.png');
+}
+
+.current {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,4 @@
+.side-bar {
+    -fx-background-color: calendar-color;
+    -fx-background-radius: 15 0 0 15;
+}

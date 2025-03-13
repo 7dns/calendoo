@@ -1,0 +1,11 @@
+.button {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-radius: 25;
+    -fx-text-alignment: center;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.button:hover {
+    -fx-background-color: rgba(255, 255, 255, 1);
+}

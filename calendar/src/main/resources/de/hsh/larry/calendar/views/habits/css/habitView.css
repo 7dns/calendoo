@@ -1,0 +1,49 @@
+.habit-icon {
+    -fx-background-color: calendar-color;
+    -fx-background-size: 25;
+    -fx-background-radius: 25;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.streakToday:hover {
+    -fx-opacity: 1;
+}
+
+.streakExtended {
+    -fx-opacity: 1;
+    -fx-background-color: calendar-color;
+    -fx-background-radius: 25;
+}
+
+.streakNotExtended {
+    -fx-opacity: 1;
+    -fx-border-color: calendar-color;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+}
+
+.streakToday {
+    -fx-opacity: 0.5;
+    -fx-background-color: calendar-color;
+    -fx-background-radius: 25;
+}
+
+.streak {
+    -fx-background-image: url('../icons/flame.png');
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-size: 20;
+    -fx-background-radius: 25;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.background {
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+}
+
+.background:hover {
+    -fx-background-color: white;
+}
+

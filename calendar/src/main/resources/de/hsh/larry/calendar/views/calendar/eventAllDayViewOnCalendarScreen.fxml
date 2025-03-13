@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<StackPane alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="125.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hsh.larry.calendar.views.calendar.EventAllDayViewOnCalendarScreen">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="15.0" arcWidth="15.0" fill="#a9d5ff" height="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="125.0" />
+      <VBox alignment="CENTER_LEFT" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="125.0">
+         <children>
+            <Label fx:id="title" text="Here goes the title">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="1.0" top="1.0" />
+               </padding>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="12.5" right="12.5" />
+         </padding>
+      </VBox>
+      <Region fx:id="sideBar" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="7.0" styleClass="side-bar" stylesheets="@css/sideBar.css" StackPane.alignment="CENTER_LEFT" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</StackPane>

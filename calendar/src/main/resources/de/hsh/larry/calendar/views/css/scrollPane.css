@@ -1,0 +1,27 @@
+.scroll-pane,
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane_Home {
+    -fx-border-color: #e6e6e6;
+    -fx-border-radius: 30;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button,
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow,
+.scroll-bar .track
+{
+    visibility: hidden;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color : #d4d4d4;
+    -fx-background-radius : 10;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgba(255, 255, 255, 1);
+}

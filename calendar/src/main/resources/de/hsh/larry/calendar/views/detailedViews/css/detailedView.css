@@ -1,0 +1,40 @@
+.background {
+    -fx-background-color: white;
+}
+
+.icon {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-background-radius: 10;
+
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25;
+}
+
+.button:hover{
+    -fx-background-color: #F2F2F2;
+}
+
+.edit {
+    -fx-background-image: url('../icons/edit.png');
+}
+
+.delete {
+    -fx-background-image: url('../icons/bin.png');
+}
+
+.close {
+    -fx-background-image: url('../icons/close.png');
+}
+
+.location {
+    -fx-background-image: url('../icons/location.png');
+}
+
+.description {
+    -fx-background-image: url('../icons/info.png');
+}
+
+.calendar {
+    -fx-background-image: url('../icons/calendar-event.png');
+}
