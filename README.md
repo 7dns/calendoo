@@ -39,10 +39,6 @@ The key feature of the calendar is that it combines appointments, to-dos, and ha
 
 Users can create, edit, and delete all entries, categorize them into different calendars (e.g., "Personal," "Work," "Studies"), and view more details by clicking on an entry. The calendar also supports recurring events and color-coded organization.
 
-### Core Features
-- vier Ansichten: Home, Kalender, To-Dos und Habits
-- Wechsel zwischen diesen Ansichten mit einer Navigation
-
 #### Home
 - Brief greeting and information about the current weekday and date
 - Overview of all upcoming appointments, to-dos, and habits for today
